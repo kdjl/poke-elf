@@ -20,3 +20,29 @@
 li {
 	list-style: none;
 }
+
+.form-inline {
+    display: inline-block;
+}
+
+.form-block {
+	display: block;
+	padding-bottom: 20px;
+}
+
+.form-block > label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+input, button {
+	outline: none;
+}
+
+.success {
+	color: green;
+}
+
+.error {
+	color: red;
+}
