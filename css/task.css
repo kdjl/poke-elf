@@ -1,0 +1,62 @@
+.task {
+    background: url('../images/task/task_bg.gif');
+    width: 700px;
+    height: 430px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+
+.task-items {
+    position: absolute;
+    top: 75px;
+    left: 24px;
+    width: 230px;
+}
+
+.task-items > .task-title {
+    padding-left: 20px;
+    font-size: 14px;
+    color: #92774b;
+    font-weight: bold;
+}
+
+.task-items > .task-content {
+    overflow: auto;
+    margin-top: 10px;
+    height: 305px;
+}
+
+.task-content > .child > .task-item {
+    color: #d55f00;
+    background: url('../images/task/task_ico_can.jpg') no-repeat 30px;
+    padding-left: 50px;
+}
+
+.task-content > li.mul {
+    background: url('../images/task/ico_1.gif') no-repeat 10px;
+}
+
+.task-content > .task-item {
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: bold;
+    color: #b89d6d;
+    padding: 5px 0;
+    padding-left: 30px;
+    background: url('../images/task/ico_2.gif') no-repeat 10px;
+    border-bottom: 1px dashed #92774b;
+}
+
+.task-content > .task-item:hover {
+    background-color: #FFFEE9;
+}
+
+#task-exit {
+    position: absolute;
+    right: 24px;
+    top: 6px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
