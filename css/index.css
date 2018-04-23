@@ -104,3 +104,10 @@
 	height: 16px;
 	font-size: 12px;
 }
+
+.icons > .btn {
+	float: left;
+	width: 46px;
+	height: 40px;
+	cursor: pointer;
+}

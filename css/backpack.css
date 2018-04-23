@@ -37,8 +37,14 @@
 }
 
 .back-items > .back-content > .back-item {
-    border-bottom: 1px dashed black;
+    border-bottom: 1px dashed #794f11;
     padding-bottom: 5px;
+}
+
+.back-items > .back-content > .back-item:hover,
+.back-item-hover {
+    background: url('../images/backpack/list_hover.jpg');
+    font-weight: bold;
 }
 
 .back-item img {
@@ -54,4 +60,13 @@
 .back-btn-group > img {
     cursor: pointer;
     padding-right: 10px;
+}
+
+#back-exit {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 25px;
+    top: 6px;
+    cursor: pointer;
 }
