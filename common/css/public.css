@@ -1,5 +1,6 @@
 * {
-    font-family: 微软雅黑;
+	font-family: 微软雅黑;
+    font-size: 12px;	
 }
 
 .fr {
@@ -15,6 +16,11 @@
 	content: "";
 	display: block;
 	clear: both;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
 }
 
 li {

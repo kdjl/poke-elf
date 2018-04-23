@@ -1,0 +1,57 @@
+.backpack {
+    background: url('../images/backpack/pack.gif');
+    width: 370px;
+    height: 410px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.back-items {
+    position: absolute;
+    top: 47px;
+    left: 30px;
+}
+
+.back-item > span {
+    display: inline-block;
+    width: 70px;
+    text-align: center;
+    color: #794f11;
+}
+
+.back-item > span.lg {
+    width: 80px;
+}
+
+.back-items > .title {
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.back-items > .back-content {
+    overflow: auto;
+    display: inline-block;
+    height: 280px;
+}
+
+.back-items > .back-content > .back-item {
+    border-bottom: 1px dashed black;
+    padding-bottom: 5px;
+}
+
+.back-item img {
+    width: 16px;
+}
+
+.back-btn-group {
+    position: absolute;
+    bottom: 21px;
+    left: 48px;
+}
+
+.back-btn-group > img {
+    cursor: pointer;
+    padding-right: 10px;
+}
