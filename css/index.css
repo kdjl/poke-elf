@@ -58,6 +58,14 @@
 	left: 40px;
 }
 
+.items a {
+	display: inline-block;
+}
+
+.items img:hover {
+	width: 150px;
+}
+
 .chat-info {
 	position: absolute;
 	left: 40px;
@@ -110,4 +118,10 @@
 	width: 46px;
 	height: 40px;
 	cursor: pointer;
+}
+
+iframe {
+	margin-top: 35px;
+	width: 803px;
+	height: 369px;
 }

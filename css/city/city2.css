@@ -62,12 +62,16 @@
 
 .next {
     background: url('../../images/cities/next.png');
-    width: 59px;
-    height: 41px;
     left: 0;
     top: 105px;
     transform: rotate(180deg);
     animation: next 400ms linear infinite alternate;
+}
+
+.next > a {
+    display: inline-block;
+    width: 59px;
+    height: 41px;
 }
 
 @keyframes next {

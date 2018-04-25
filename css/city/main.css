@@ -106,11 +106,15 @@
 
 .r-next {
     background: url('../../images/cities/next.png');
-    width: 59px;
-    height: 41px;
     right: 0;
     top: 125px;
     animation: next 400ms linear infinite alternate;
+}
+
+.r-next > a {
+    display: inline-block;
+    width: 59px;
+    height: 41px;
 }
 
 @keyframes next {
