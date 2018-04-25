@@ -1,0 +1,76 @@
+.main {
+    background: url('../../images/cities/map2.png');
+    width: 790px;
+    height: 319px;
+    position: relative;
+}
+
+.title {
+    background: url('../../images/cities/map_logo2_new.png');
+    width: 790px;
+    height: 319px;
+}
+
+.main > *:not(.title) {
+    cursor: pointer;
+    position: absolute;
+}
+
+.pet {
+    width: 149px;
+    height: 133px;
+    bottom: 38px;
+    left: 0;
+}
+
+.pet:hover {
+    background: url('../../images/cities/9.png');
+}
+
+.family {
+    width: 226px;
+    height: 194px;
+    bottom: 0;
+    left: 334px;
+}
+
+.family:hover {
+    background: url('../../images/cities/10.png');
+}
+
+.card {
+    width: 122px;
+    height: 123px;
+    bottom: 8px;
+    left: 605px;
+}
+
+.card:hover {
+    background: url('../../images/cities/11.png');
+}
+
+.lover {
+    width: 197px;
+    height: 154px;
+    top: 0;
+    right: 58px;
+}
+
+.lover:hover {
+    background: url('../../images/cities/12.png');
+}
+
+.next {
+    background: url('../../images/cities/next.png');
+    width: 59px;
+    height: 41px;
+    left: 0;
+    top: 105px;
+    transform: rotate(180deg);
+    animation: next 400ms linear infinite alternate;
+}
+
+@keyframes next {
+    from {left: 0;}
+    to {left: 20px;}
+}
