@@ -1,0 +1,219 @@
+.left {
+    background: url('../../images/pets/left.jpg') no-repeat;
+    width: 291px;
+    height: 319px;
+}
+
+.left > .top {
+    width: 100%;
+    height: 200px;
+}
+
+.left > .bottom {
+    width: 100%;
+    height: 119px;
+}
+
+.right {
+    background: url('../../images/pets/right.jpg') no-repeat;
+    width: 497px;
+    height: 319px;
+}
+
+.user-info {
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+.user-info > * {
+    line-height: 23px;
+}
+
+.user-img {
+    padding-left: 30px;
+    padding-top: 10px;
+}
+
+.pet-list {
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.pet-list > * {
+    float: left;
+    padding-right: 10px;
+}
+
+.pet-item {
+    background: url('../../images/pets/nopet.jpg') no-repeat;
+    width: 67px;
+    height: 84px;
+    cursor: pointer;
+}
+
+.r-left {
+    margin-left: 28px;
+}
+
+.right .title {
+    background: url('../../images/pets/choosebox.png') no-repeat;
+    margin-left: 28px;
+    margin-top: 2px;
+    width: 263px;
+    height: 27px;
+}
+
+.right .title > * {
+    float: left;
+    height: 27px;
+    width: 87px;
+    cursor: pointer;
+}
+
+.right .title > .t1-click {
+    background: url('../../images/pets/choosed_1.jpg');
+}
+
+.right .title > .t2-click {
+    background: url('../../images/pets/choosed_2.jpg');
+}
+
+.right .title > .t3-click {
+    background: url('../../images/pets/choosed_3.jpg');
+}
+
+.right .title > .three {
+    width: 89px;
+}
+
+.right .content {
+    background: url('../../images/pets/equip.jpg');
+    width: 324px;
+    height: 238px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right .content > .item {
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.right .content > .item > *{
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    line-height: 46px;
+    cursor: pointer;
+}
+
+.right .content > .item > .crown {
+    background: url('../../images/pets/zbsx.gif') no-repeat;
+}
+
+.right .r-left {
+    position: relative;
+}
+
+.right .r-left .pet {
+    background: url('../../images/pets/z166.gif');
+    width: 200px;
+    height: 190px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.right .line {
+    background: url('../../images/pets/line.jpg');
+    width: 2px;
+    height: 265px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.right .r-right {
+    margin-top: 10px;
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.t2-fl,.t3-fl {
+    position: relative;
+    width: 380px;
+}
+
+.t2-fl > .img,
+.t3-fl > .img {
+    margin-top: 20px;
+    margin-left: 120px;
+    background: url('../../images/pets/hexagram.jpg');
+    width: 174px;
+    height: 192px;
+}
+
+.t2-fl > .prop-list {
+    margin-left: 40px;
+}
+
+.t2-fl > .prop-list > * {
+    float: left;
+    width: 110px;
+    line-height: 15px;
+}
+
+.t2-fl > .pet,
+.t3-fl > .pet {
+    background: url('../../images/pets/z166.gif');
+    width: 200px;
+    height: 190px;
+    position: absolute;
+    top: 20px;
+    left: 55px;
+}
+
+.t2 > .line,
+.t3 > .line {
+    background: url('../../images/pets/line.jpg');
+    width: 2px;
+    height: 265px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.t2-fr {
+    margin-left: 10px;
+    margin-top: 20px;
+    line-height: 20px;
+}
+
+.t3-fl {
+    width: 360px;
+}
+
+.skill-list {
+    margin-top: 20px;
+    margin-left: 10px;
+    line-height: 20px;
+}
+
+.skill-list .type {
+    font-weight: bold;
+}
+
+.skill-list .red {
+    color: red;
+}
+
+.skill-list .green {
+    color: green;
+}
+
+.skill-list .add {
+    color: blue;
+    cursor: pointer;
+}
