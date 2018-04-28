@@ -17,10 +17,14 @@
 }
 
 .exchange {
-    width: 202px;
-    height: 154px;
     bottom: 7px;
     left: 11px;
+}
+
+.exchange > a {
+    display: inline-block;
+    width: 202px;
+    height: 154px;
 }
 
 .main > .exchange:hover {

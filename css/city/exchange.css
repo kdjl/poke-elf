@@ -1,0 +1,170 @@
+.logo {
+    background: url('../../images/exchange/pms01.jpg');
+    width: 138px;
+    height: 319px;
+}
+
+.content {
+    background: url('../../images/exchange/right.jpg');
+    width: 640px;
+    height: 319px;
+    padding-left: 10px;
+}
+
+.title {
+    background: url('../../images/exchange/pms02.jpg') no-repeat;
+    width: 568px;
+    height: 29px;
+}
+
+.gold-ex-click {
+    background: url('../../images/exchange/pms02.jpg') 0 -29px;
+}
+
+.crystal-ex-click {
+    background: url('../../images/exchange/pms02.jpg') -89px -29px;
+}
+
+.prop-ex-click {
+    background: url('../../images/exchange/pms02.jpg') -178px -29px;
+}
+
+.title > .item {
+    cursor: pointer;
+}
+
+.title > .item,
+.title > .item-bg {
+    width: 89px;
+    height: 100%;
+    float: left;
+}
+
+.title > .item-bg {
+    width: 120px;
+}
+
+.gold > img,
+.crystal > img{
+    padding-top: 7px;
+    margin-left: 5px;
+}
+
+.gold-auction > .title-logo {
+    background: url('../../images/exchange/icon07.jpg');
+    width: 65px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+.prop-list {
+    width: 300px;
+    height: 220px;
+    background-color: #fff;
+    float: left;
+    overflow: auto;
+}
+
+.prop-list .titles{
+    border-bottom: 1px solid #c99c46;
+}
+
+.prop-list .title-item,
+.prop-list .prop-item > span {
+    width: 68px;
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    padding: 5px 0;
+    color: #c99c46;
+}
+
+.prop-list .prop-item {
+    height: 26px;
+}
+
+.prop-list .prop-item:hover {
+    background-color: #eeddaf;
+    font-weight: bold;
+}
+
+.prop-list .prop-item:before,
+.prop-list .prop-item:after {
+    content: "";
+    display: inline-block;
+    clear: both;
+}
+
+.prop-list > ul > li > .img {
+    width: 30px;
+}
+
+.prop-list > ul > li > .name {
+    width: 120px;
+}
+
+.prop-list > ul > li > .price {
+    width: 70px;
+}
+
+.prop-list > ul > li > .num {
+    width: 40px;
+}
+
+.prop-list .prop-item img {
+    height: 14px;
+}
+
+.backpack {
+    margin-left: 20px;
+}
+
+.backpack > .title-logo {
+    background: url('../../images/exchange/shop04.jpg');
+    width: 65px;
+    height: 25px;
+    margin: 5px 0;
+}
+
+.buy-group {
+    width: 300px;
+    float: left;
+}
+
+.buy-group > .all {
+    float: right;
+    margin-top: 7px;
+}
+
+.buy-group > .all > * {
+    float: left;
+    margin-right: 5px;
+}
+
+.buy-group > .all input {
+    width: 60px;
+    height: 15px;
+    padding-left: 3px;
+    border: 1px solid #999;
+}
+
+.buy-group > .all > span {
+    display: inline-block;
+    margin-top: 3px;
+    color: #c99c46;
+}
+
+.auction-img,
+.buy-img {
+    background: url('../../images/exchange/bnt.gif');
+    width: 39px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.auction-img > span,
+.buy-img > span {
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 2px;
+}
