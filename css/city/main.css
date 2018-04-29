@@ -32,10 +32,14 @@
 }
 
 .pasture {
-    width: 110px;
-    height: 74px;
     top: 0;
     left: 0;
+}
+
+.pasture > a {
+    display: inline-block;
+    width: 110px;
+    height: 74px;
 }
 
 .pasture:hover {
