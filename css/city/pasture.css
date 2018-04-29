@@ -1,0 +1,138 @@
+.city-logo {
+    background: url('../../images/pasture/muchang_03.jpg');
+}
+
+.city-content {
+    background: url('../../images/pasture/right.jpg');
+}
+
+.title {
+    background: url('../../images/pasture/mcchoose.jpg');
+    width: 179px;
+}
+
+.mypet-click {
+    background: url('../../images/pasture/mcchoosed1.jpg');
+}
+
+.trusteeship-click {
+    background: url('../../images/pasture/mcchoosed2.jpg');
+}
+
+.trusteeship-pet > .title-logo {
+    background: url('../../images/pasture/muchang_09.jpg') no-repeat;
+}
+
+.prop-list .titles > .title-item,
+.prop-list .prop-item > span{
+    width: 70px;
+}
+
+.prop-list .titles > .name,
+.prop-list .prop-item > .name {
+    width: 120px;
+}
+
+.my-pet,
+.bottom > .right {
+    margin-left: 20px;
+}
+
+.my-pet > .title-logo{
+    background: url('../../images/pasture/muchang_11.jpg') no-repeat;
+}
+
+.my-pet > .prop-list {
+    background: url('../../images/pasture/muchang_16.jpg');
+}
+
+.prop-list > .arrow-list {
+    width: 90%;
+}
+
+.arrow-list > .arrow {
+    display: inline-block;
+    width: 67px;
+    height: 56px;
+}
+
+.arrow-list > .click {
+    background: url('../../images/pasture/zz.gif') no-repeat center;
+}
+
+.prop-list > .pet-list,
+.prop-list > .arrow-list {
+    margin-left: 15px;
+}
+
+.prop-list > .pet-list > img,
+.arrow-list > .arrow {
+    margin: 0 5px;
+}
+
+.explain {
+    color: #bb8221;
+    line-height: 20px;
+}
+
+.explain > .explain-title {
+    font-weight: bold;
+}
+
+.bottom1 img {
+    cursor: pointer;
+}
+
+.bottom1 > .left,
+.bottom1 > .right {
+    color: #bb8221;
+    width: 300px;
+    padding-top: 9px;
+}
+
+.bottom1 > .left > * {
+    margin: 0 2px;
+}
+
+.trusteeship-info {
+    width: 620px;
+    background-color: #fff;
+    border: 1px solid #c48635;
+    border-radius: 5px;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.trusteeship-info > * {
+    padding: 0 10px;
+    line-height: 20px;
+    font-weight: bold;
+}
+
+.trusteeship-info > div {
+    color: #bb8221;
+}
+
+#trusteeship {
+    margin-top: 20px;
+}
+
+.bottom2 {
+    margin-right: 40px;
+}
+
+.bottom2 > .img {
+    float: left;
+    margin-left: 8px;
+    margin-top: 5px;
+    background: url('../../images/exchange/bnt.gif');
+    width: 39px;
+    height: 17px;
+    cursor: pointer;
+}
+
+.bottom2 > .img > span {
+    display: inline-block;
+    margin-left: 7px;
+    margin-top: 2px;
+}

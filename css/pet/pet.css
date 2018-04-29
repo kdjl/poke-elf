@@ -70,15 +70,15 @@
     cursor: pointer;
 }
 
-.right .title > .t1-click {
+.right .title > .one-click {
     background: url('../../images/pets/choosed_1.jpg');
 }
 
-.right .title > .t2-click {
+.right .title > .two-click {
     background: url('../../images/pets/choosed_2.jpg');
 }
 
-.right .title > .t3-click {
+.right .title > .three-click {
     background: url('../../images/pets/choosed_3.jpg');
 }
 
