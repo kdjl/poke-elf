@@ -120,12 +120,13 @@
 }
 
 .right .r-left .pet {
-    background: url('../../images/pets/z166.gif');
-    width: 200px;
-    height: 190px;
     position: absolute;
-    top: 30px;
-    left: 30px;
+    top: 60px;
+    left: 70px;
+}
+
+.right .r-left .pet > img {
+    height: 150px;
 }
 
 .right .line {
