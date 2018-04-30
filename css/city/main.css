@@ -77,10 +77,14 @@
 }
 
 .prop {
-    width: 190px;
-    height: 137px;
     right: 123px;
     top: 0;
+}
+
+.prop > a {
+    display: inline-block;
+    width: 190px;
+    height: 137px;
 }
 
 .prop:hover {

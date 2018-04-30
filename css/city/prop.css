@@ -1,0 +1,69 @@
+.city-logo {
+    background: url('../../images/prop/left.jpg');
+}
+
+.city-content {
+    background: url('../../images/prop/right.jpg');
+}
+
+.title {
+    background: url('../../images/prop/choosebox.jpg') no-repeat;
+}
+
+.title > .gold {
+    float: left;
+    background: url('../../images/prop/icon.jpg') no-repeat;
+    height: 18px;
+    margin-left: 50px;
+    margin-top: 7px;
+    padding-left: 20px;
+    line-height: 20px;
+}
+
+.prop-title-click {
+    background: url('../../images/prop/1.png');
+}
+
+.prestige-title-click {
+    background: url('../../images/prop/2.png');
+}
+
+.backpack {
+    margin-left: 20px;
+}
+
+.prop > .title-logo {
+    background: url('../../images/prop/shop03.jpg') no-repeat;
+}
+
+.backpack > .title-logo {
+    background: url('../../images/prop/shop04.jpg') no-repeat;
+}
+
+.bottom {
+    margin-top: 10px;
+    color: #B06A01;
+}
+
+.bottom img {
+    cursor: pointer;
+}
+
+.bottom > * {
+    width: 300px;
+    float: left;
+}
+
+.br {
+    margin-left: 20px;
+}
+
+.bottom > * > * > *{
+    float: left;
+    margin: 0 3px;
+}
+
+.bottom > .bl input {
+    width: 70px;
+    border: 1px solid #cdb28b;
+}
