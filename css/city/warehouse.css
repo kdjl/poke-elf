@@ -1,0 +1,51 @@
+.city-logo {
+    background: url('../../images/warehouse/cangku01.jpg');
+}
+
+.city-content {
+    background: url('../../images/warehouse/right.jpg');
+}
+
+.warehouse-title {
+    background: url('../../images/warehouse/cangku03.jpg');
+}
+
+.warehouse > .title-logo {
+    background: url('../../images/warehouse/icon03.jpg') no-repeat;
+}
+
+.backpack {
+    margin-left: 20px;
+}
+
+.backpack > .title-logo {
+    background: url('../../images/warehouse/shop04.jpg') no-repeat;
+}
+
+.bottom {
+    margin-top: 10px;
+    color: #B06A01;
+}
+
+.bottom img {
+    cursor: pointer;
+}
+
+.bottom > * {
+    width: 300px;
+    float: left;
+}
+
+.br {
+    margin-left: 20px;
+}
+
+.bottom > * > * {
+    float: left;
+    margin: 0 3px;
+}
+
+.bottom > .bl input {
+    width: 70px;
+    border: 1px solid #cdb28b;
+}
