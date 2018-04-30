@@ -33,26 +33,6 @@
     background: url('../../images/exchange/icon07.jpg') no-repeat;
 }
 
-.prop-list > ul > li > .img {
-    width: 30px;
-}
-
-.prop-list > ul > li > .name {
-    width: 120px;
-}
-
-.prop-list > ul > li > .price {
-    width: 70px;
-}
-
-.prop-list > ul > li > .num {
-    width: 40px;
-}
-
-.prop-list .prop-item img {
-    height: 14px;
-}
-
 .backpack {
     margin-left: 20px;
 }

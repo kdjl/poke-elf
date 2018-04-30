@@ -47,10 +47,14 @@
 }
 
 .mystery {
-    width: 221px;
-    height: 200px;
     top: 20px;
     left: 183px;
+}
+
+.mystery > a {
+    display: inline-block;
+    width: 221px;
+    height: 200px;
 }
 
 .mystery:hover {

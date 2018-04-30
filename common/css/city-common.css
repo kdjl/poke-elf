@@ -56,10 +56,6 @@
     color: #c99c46;
 }
 
-.prop-list .prop-item {
-    height: 26px;
-}
-
 .prop-list .prop-item:hover {
     background-color: #eeddaf;
     font-weight: bold;
@@ -70,4 +66,24 @@
     content: "";
     display: inline-block;
     clear: both;
+}
+
+.prop-list > ul > li > .img {
+    width: 30px;
+}
+
+.prop-list > ul > li > .name {
+    width: 120px;
+}
+
+.prop-list > ul > li > .price {
+    width: 70px;
+}
+
+.prop-list > ul > li > .num {
+    width: 40px;
+}
+
+.prop-list .prop-item img {
+    height: 14px;
 }

@@ -1,0 +1,69 @@
+var id = 'all-list';
+var titles = {
+    img: '图标',
+    name: '名称',
+    price: '卖出价格',
+    num: '已有数量'
+}
+var showItem = [{
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '99',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '993',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '99',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '993',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '99',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '993',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '99',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '993',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '99',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '993',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '99',
+    num: '100'
+}, {
+    img: '../images/backpack/12.gif',
+    name: '神圣礼包',
+    price: '993',
+    num: '100'
+},]
+show(titles, showItem, id);

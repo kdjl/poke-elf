@@ -1,0 +1,71 @@
+.city-logo {
+    background: url('../../images/mystery/smshop01.jpg');
+}
+
+.city-content {
+    background: url('../../images/mystery/right.jpg');
+}
+
+.title {
+    background: url('../../images/mystery/family02.jpg') no-repeat;
+    height: 29px;
+}
+
+.title > .item {
+    text-align: center;
+    line-height: 29px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #be9749;
+}
+
+.mystery-shop-click {
+    background: url('../../images/mystery/family02.jpg') no-repeat 0 -29px;
+}
+
+.crystal-shop-click {
+    background: url('../../images/mystery/family02.jpg') no-repeat -89px -29px;
+}
+
+.vip-shop-click {
+    background: url('../../images/mystery/family02.jpg') no-repeat -178px -29px;
+}
+.time-shop-click {
+    background: url('../../images/mystery/family02.jpg') no-repeat -267px -29px;
+}
+
+.shop-list > .title-logo{
+    width: 300px;
+    margin-top: 13px;
+    height: 22px;
+    margin-bottom: 0;
+}
+
+.shop-list > .title-logo > div {
+    height: 22px;
+    float: left;
+}
+
+.shop-list > .title-logo > div > img {
+    cursor: pointer;
+}
+
+.prop-list > ul > li > .name {
+    width: 110px;
+}
+
+.prop-list > ul > li > .price {
+    width: 60px;
+}
+
+.prop-list > ul > li > .num {
+    width: 60px;
+}
+
+.backpack-list {
+    margin-left: 20px;
+}
+
+.backpack-list > .title-logo{
+    background: url('../../images/mystery/shop04.jpg') no-repeat;
+}
