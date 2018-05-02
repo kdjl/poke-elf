@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../common/css/normalize.css">
+    <link rel="stylesheet" href="../common/css/public.css">
+    <link rel="stylesheet" href="../common/css/city-common.css">
+    <link rel="stylesheet" href="../css/city/pethome.css">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../common/js/tab.js"></script>
+    <script src="../common/js/baidu.js"></script>
+    <title>宠物神殿</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="city-logo fl"></div>
+        <div class="city-content fl">
+            <div class="title">
+                <div class="item evolve evolve-click"></div>
+                <div class="item compose"></div>
+                <div class="item reincarnation"></div>
+                <div class="item evolvesp"></div>
+                <div class="item reincarnationsp"></div>
+            </div>
+            <div class="evolve-context">
+                <div class="fl left">
+                    <p>说明：进化需要满足条件，进化材料可以通过怪物掉落、开启进化箱、进化宝石兑换获得。</p>
+                    <div class="pet-item"></div>
+                    <div class="pet-item"></div>
+                    <div class="pet-item"></div>
+                </div>
+                <div class="fr right">
+                    <div class="pet-info-a">
+                        <div class="info">
+                            <div>进化需求等级：
+                                <span class="grade">40</span>
+                            </div>
+                            <div>当前等级：
+                                <span class="curr-grade">94</span>
+                            </div>
+                            <div>进化所需金币：
+                                <span class="price">1000</span>
+                            </div>
+                            <div>进化所需材料：
+                                <span class="prop">玉露结晶</span>
+                            </div>
+                            <div>进化后宠物：
+                                <span class="new-pet">歌莉娅</span>
+                            </div>
+                        </div>
+                        <div class="logo">
+                            <img src="../images/pethome/jh_a.jpg">
+                        </div>
+                    </div>
+                    <div class="pet-info-b">
+                        <div class="info">
+                            <div>进化需求等级：
+                                <span class="grade">40</span>
+                            </div>
+                            <div>当前等级：
+                                <span class="curr-grade">94</span>
+                            </div>
+                            <div>进化所需金币：
+                                <span class="price">1000</span>
+                            </div>
+                            <div>进化所需材料：
+                                <span class="prop">玉露结晶</span>
+                            </div>
+                            <div>进化后宠物：
+                                <span class="new-pet">歌莉娅</span>
+                            </div>
+                        </div>
+                        <div class="logo">
+                            <img src="../images/pethome/jh_b.jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="compose-context base-context none">
+                <div class="left fl">
+                    <div class="bg"></div>
+                    <div class="choose-pet">
+                        <select class="main-pet" name="main-pet">
+                            <option value="test" selected disabled>请选择主宠物</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                        </select>
+                        <select class="other-pet" name="other-pet">
+                            <option value="test" selected disabled>请选择副宠物</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                            <option value="test">火波姆</option>
+                        </select>
+                    </div>
+                    <div class="compose-price">
+                        合成宠物需要金币：
+                        <span class="price">50000</span>
+                    </div>
+                </div>
+                <div class="right fl">
+                    <div>合成等级限制：主副宠物均需要40级</div>
+                    <div>说明：</div>
+                    <div>1）添加的道具可以通过神秘商店、副本等获得</div>
+                    <div>2）合成时请先取下宠物装备，否则宠物消失时装备也会一起消失。</div>
+                    <div>3）合成冷却为5秒，需等待冷却后才能继续合成。</div>
+                    <div>4）两只10阶及以上的宠物合成有一定几率合成神宠</div>
+                    <div class="add-prop">
+                        <div class="protect">
+                            添加
+                            <span>守护</span>材料：
+                            <select name="protect">
+                                <option value="test" disabled selected>请选择材料</option>
+                                <option value="test">天神灵石</option>
+                                <option value="test">守护灵石</option>
+                                <option value="test">至尊神石</option>
+                            </select>
+                        </div>
+                        <div class="addition">
+                            添加
+                            <span>加成</span>材料：
+                            <select name="protect">
+                                <option value="test" disabled selected>请选择材料</option>
+                                <option value="test">天神灵石</option>
+                                <option value="test">守护灵石</option>
+                                <option value="test">至尊神石</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <img class="fl" src="../images/pethome/hc.gif">
+                        <div class="fl lucky">
+                            <div>
+                                合成幸运星：
+                                <span class="num">0</span>
+                            </div>
+                            <img src="../images/pethome/gm15.gif">
+                        </div>
+                    </div>
+                </div>
+                <div class="showPet">
+                    <div class="pet-one pet-img"></div>
+                    <div class="pet-two pet-img"></div>
+                </div>
+            </div>
+            <div class="reincarnation-context base-context none">
+                <div class="left fl">
+                    <div class="bg"></div>
+                    <div class="choose-pet">
+                        <select class="main-pet" name="main-pet">
+                            <option value="test" selected disabled>请选择主宠物</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                        </select>
+                        <select class="other-pet" name="other-pet">
+                            <option value="test" selected disabled>请选择副宠物</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                            <option value="test">青影龙</option>
+                        </select>
+                    </div>
+                    <div class="nirvana">
+                        请选择涅槃兽：
+                        <select name="nirvana">
+                            <option value="test" selected disabled>请选择涅槃兽</option>
+                            <option value="test">涅槃兽</option>
+                            <option value="test">涅槃兽</option>
+                            <option value="test">涅槃兽</option>
+                            <option value="test">涅槃兽</option>
+                            <option value="test">涅槃兽</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="right fl">
+                    <div><strong>涅磐限制</strong>：主副宠,涅磐兽均需为神宠，60级以上</div>
+                    <div><strong>涅磐失败惩罚</strong>：涅磐兽消失</div>
+                    <div><strong>说明</strong></div>
+                    <div>1）添加的道具可以通过神秘商店、副本等获得</div>
+                    <div>2）涅槃时请先取下宠物装备，否则宠物消失时装备也会一起消失。</div>
+                    <div>3）涅槃冷却为5秒，需等待冷却后才能继续涅槃。</div>
+                    <div class="add-prop">
+                        <div class="protect">
+                            添加
+                            <span>守护</span>材料：
+                            <select name="protect">
+                                <option value="test" disabled selected>请选择材料</option>
+                                <option value="test">天神灵石</option>
+                                <option value="test">守护灵石</option>
+                                <option value="test">至尊神石</option>
+                            </select>
+                        </div>
+                        <div class="addition">
+                            添加
+                            <span>加成</span>材料：
+                            <select name="protect">
+                                <option value="test" disabled selected>请选择材料</option>
+                                <option value="test">天神灵石</option>
+                                <option value="test">守护灵石</option>
+                                <option value="test">至尊神石</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="star">
+                        <img src="../images/pethome/np.gif">
+                        <div class="nirvana-price">每次涅槃消耗金币：50W</div>
+                    </div>
+                </div>
+                <div class="showPet">
+                    <div class="pet-one pet-img"></div>
+                    <div class="pet-two pet-img"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/city/pethome.js"></script>
+</body>
+
+</html>

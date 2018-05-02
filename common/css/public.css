@@ -1,6 +1,7 @@
 * {
 	font-family: 微软雅黑;
-    font-size: 12px;	
+	font-size: 12px;
+	box-sizing: content-box;
 }
 
 .fr {
@@ -25,6 +26,8 @@ ul {
 
 li {
 	list-style: none;
+	/* 兼容某些浏览器 */
+	font-size: 0;
 }
 
 .form-inline {

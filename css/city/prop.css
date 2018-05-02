@@ -3,7 +3,7 @@
 }
 
 .city-content {
-    background: url('../../images/prop/right.jpg');
+    background: url('../../images/prop/right.jpg') no-repeat;
 }
 
 .title {

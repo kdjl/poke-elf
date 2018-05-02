@@ -3,7 +3,7 @@
 }
 
 .city-content {
-    background: url('../../images/mystery/right.jpg');
+    background: url('../../images/mystery/right.jpg') no-repeat;
 }
 
 .title {

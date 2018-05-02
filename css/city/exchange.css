@@ -1,9 +1,9 @@
 .city-logo {
-    background: url('../../images/exchange/pms01.jpg');
+    background: url('../../images/exchange/pms01.jpg') no-repeat;
 }
 
 .city-content {
-    background: url('../../images/exchange/right.jpg');
+    background: url('../../images/exchange/right.jpg') no-repeat;
 }
 
 .title {

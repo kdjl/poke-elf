@@ -1,0 +1,149 @@
+.city-logo {
+    background: url('../../images/pethome/left.jpg');
+}
+
+.city-content {
+    background: url('../../images/pethome/right.jpg');
+    padding-left: 0;
+    color: #bf7d1a;
+}
+
+.title {
+    background: url('../../images/pethome/sd03.jpg') no-repeat;
+}
+
+.evolve-click {
+    background: url('../../images/pethome/sd03.jpg') 0 -29px;
+}
+
+.compose-click {
+    background: url('../../images/pethome/sd03.jpg') -89px -29px;
+}
+
+.reincarnation-click {
+    background: url('../../images/pethome/sd03.jpg') -178px -29px;
+}
+
+.evolvesp-click {
+    background: url('../../images/pethome/sd03.jpg') -267px -29px;
+}
+
+.reincarnationsp-click {
+    background: url('../../images/pethome/sd03.jpg') -356px -29px;
+}
+
+.city-content > .evolve-context {
+    background: url('../../images/pethome/jh.jpg');
+    width: 650px;
+    height: 290px;
+}
+
+.evolve-context > .left {
+    width: 249px;
+    margin-top: 46px;
+    margin-left: 20px;
+}
+
+.evolve-context > .right {
+    width: 285px;
+}
+
+.evolve-context .pet-item {
+    cursor: pointer;
+    background: url('../../images/pasture/k116.gif');
+    width: 67px;
+    height: 84px;
+    float: left;
+    margin-left: 10px;
+}
+
+.evolve-context > .right > * {
+    display: flex;
+    height: 120px;
+    margin-top: 20px;
+    line-height: 20px;
+    align-items: center;
+}
+
+.evolve-context > .right > * > .logo {
+    margin-left: 20px;
+}
+
+.evolve-context > .right > * > .logo > img {
+    cursor: pointer;
+}
+
+.base-context > .left{
+    margin-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 320px;
+    height: 100%;
+}
+
+.base-context > .left > .bg {
+    background: url('../../images/pethome/hcbox.jpg');
+    width: 263px;
+    height: 212px;
+}
+
+.base-context .choose-pet {
+    width: 233px;
+    height: 30px;
+}
+
+.base-context .choose-pet > .other-pet {
+    margin-left: 37px;
+}
+
+.base-context > .right {
+    margin-top: 35px;
+    width: 320px;
+    line-height: 22px;
+}
+
+.base-context .add-prop {
+    color: black;
+}
+
+.base-context .add-prop span {
+    color: red;
+}
+
+.base-context .star img {
+    cursor: pointer;
+}
+
+.base-context .star > .lucky {
+    margin-left: 54px;
+}
+
+.base-context .showPet {
+    position: relative;
+}
+
+.base-context .showPet > .pet-img {
+    position: absolute;
+    width: 67px;
+    height: 84px;
+}
+
+.base-context .showPet > .pet-one {
+    top: 42px;
+    left: 59px;
+}
+
+.base-context .showPet > .pet-two {
+    top: 42px;
+    left: 193px;
+}
+
+.reincarnation-context .star {
+    display: flex;
+    align-items: center;
+}
+
+.reincarnation-context .star > .nirvana-price {
+    margin-left: 20px;
+}

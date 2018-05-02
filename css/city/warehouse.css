@@ -3,7 +3,7 @@
 }
 
 .city-content {
-    background: url('../../images/warehouse/right.jpg');
+    background: url('../../images/warehouse/right.jpg') no-repeat;
 }
 
 .warehouse-title {

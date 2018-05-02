@@ -17,10 +17,14 @@
 }
 
 .pet {
-    width: 149px;
-    height: 133px;
     bottom: 38px;
     left: 0;
+}
+
+.pet > a {
+    display: inline-block;
+    width: 149px;
+    height: 133px;
 }
 
 .pet:hover {
