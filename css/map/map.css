@@ -1,0 +1,63 @@
+.main {
+    display: flex;
+}
+
+.main > * {
+    height: 319px;
+}
+
+.introduce {
+    background: url('../../images/explore/zdzd_bj1.jpg');
+    width: 301px;
+}
+
+.team {
+    background: url('../../images/explore/zdzd_bj2.jpg');
+    width: 283px;
+}
+
+.online {
+    background: url('../../images/explore/zdzd_bj3.jpg');
+    width: 204px;
+}
+
+.introduce > .info {
+    width: 240px;
+    padding-left: 32px;
+    padding-top: 67px;
+    line-height: 18px;
+}
+
+.introduce > .user-pets {
+    display: flex;
+    margin-top: 53px;
+    margin-left: 20px;
+}
+
+.introduce > .user-pets > .item{
+    background: url('../../images/pethome/k166.gif') no-repeat;
+    width: 67px;
+    height: 84px;
+    padding-right: 20px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+.introduce > .user-pets > .click {
+    opacity: 1;
+}
+
+.team {
+    position: relative;
+}
+
+.team > .start {
+    position: absolute;
+    bottom: 20px;
+    left: 12px;
+}
+
+.team > .start > * {
+    cursor: pointer;
+    margin-right: 5px;
+}
