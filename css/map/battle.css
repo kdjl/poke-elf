@@ -1,0 +1,166 @@
+.main {
+    background: url('../../images/maps/1.jpg');
+    width: 788px;
+    height: 311px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main > .flex > * {
+    width: 240px;
+}
+
+.main > .flex > .right {
+    transform: rotateY(180deg);
+}
+
+.user-logo > .top-img {
+    background: url('../../images/explore/zd01.gif');
+    width: 147px;
+    height: 19px;
+}
+
+.user-logo > .top-img > .name {
+    margin-left: 30px;
+    text-align: center;
+}
+
+.user-logo > .pet-center {
+    position: relative;
+}
+
+.user-logo > .pet-center > .pet-img {
+    background: url('../../images/explore/zd02.gif');
+    width: 90px;
+    height: 47px;
+    position: relative;
+    z-index: 10;
+}
+
+.user-logo > .pet-center > .pet-img > .pet-logo {
+    position: absolute;
+    background: url('../../images/pethome/t166.gif') no-repeat;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    top: 2px;
+    left: 22px;
+}
+
+.bar {
+    position: absolute;
+    z-index: 1;
+    left: 70px;
+}
+
+.bar > * {
+    width: 165px;
+    position: absolute;
+    z-index: 4;
+}
+
+.bar > .o {
+    z-index: 3;
+}
+
+.bar > .text {
+    z-index: 5;
+    text-align: center;
+    line-height: 16px;
+}
+
+.bar > .o > * {
+    background-color: #fff;
+    opacity: .2;
+}
+
+.bar > * > div {
+    width: 165px;
+    height: 16px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.bar .hp {
+    background: url('../../images/explore/xthong01.gif');
+    width: 80%;
+}
+
+.bar .mp {
+    background: url('../../images/explore/xtlan01.gif');
+    width: 60%;
+}
+
+.bar .exp {
+    background: url('../../images/explore/xthuang01.gif');
+    width: 40%;
+}
+
+.user-logo > .bottom-img {
+    background: url('../../images/explore/zd03.gif');
+    width: 99px;
+    height: 48px;
+    position: relative;
+}
+
+.user-logo > .bottom-img > .pet-all {
+    position: absolute;
+    top: 16px;
+    left: 28px;
+}
+
+.user-logo > .bottom-img > .pet-all > .pet-name {
+    color: #00aaff;
+}
+
+.user-logo > .bottom-img > .pet-all > .pet-grade {
+    color: #91c42f;
+}
+
+.right .user-logo > .top-img > .name,
+.right .bar > .text,
+.right .user-logo > .bottom-img > .pet-all {
+    transform: rotateY(180deg);
+}
+
+.right .user-logo > .pet-center > .pet-img > .pet-logo {
+    background: url('../../images/pethome/t198.gif');
+    background-size: contain;
+    transform: rotateY(180deg);
+}
+
+.right .bar .hp {
+    width: 100%;
+}
+
+.right .bar .mp {
+    width: 100%;
+}
+
+.right .bar .exp {
+    width: 100%;
+}
+
+.flex > .time {
+    background: url('../../images/explore/db.gif') no-repeat;
+    width: 81px;
+    height: 79px;
+    font-size: 22px;
+    text-align: center;
+    line-height: 81px;
+    color: #6A2F06;
+    font-weight: bold;
+}
+
+.panel {
+    position: relative;
+    bottom: 67px;
+}
+
+.attack {
+    position: absolute;
+    left: 400px;
+}
